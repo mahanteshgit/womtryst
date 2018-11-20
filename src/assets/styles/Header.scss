@@ -1,0 +1,24 @@
+
+  .Header{
+    background-color: #f95151;
+    height: 90px;
+    width: 100%;
+    position: relative;
+    margin-bottom: 20px;
+
+    &__title{
+      color: #fff;
+      margin-left: 85px;
+      position: absolute;
+      top: 5px;
+      font-size: 24px;
+      font-weight: 400;
+    }
+
+    &__backarrow{
+      margin-left: 40px;
+      padding-top: 35px;
+    }
+  }
+  
+  

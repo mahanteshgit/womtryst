@@ -1,0 +1,176 @@
+.PastMedicalHistoryContent{
+    width: 570px;
+    height: 645px;
+
+    &__medCond{
+        float: left;
+        width: 49%;
+        height: 255px;
+        /* border-right: 1px solid #f5f5f5; */
+        border-bottom: 2px solid #f5f5f5;
+    }
+
+    &__medications{
+        float: left;
+        width: 50%;
+        height: 200px;
+        border-bottom: 2px solid #f5f5f5;
+        border-left: 2px solid #f5f5f5;
+
+        &--resultStatus{
+            margin-left: 75px;
+            font-size: 14px;
+            font-weight: 400;
+        }
+
+        &--resultStatus1{
+            @extend .PastMedicalHistoryContent__medications--resultStatus;
+            margin-left: 100px;
+        }
+
+        &--resultStatus2{
+            @extend .PastMedicalHistoryContent__medications--resultStatus;
+            margin-left: 78px;
+        }
+
+        &--resultStatus3{
+            @extend .PastMedicalHistoryContent__medications--resultStatus;
+            margin-left: 160px;
+            color: #f00;
+        }
+    }
+
+    &__Allergies{
+        float: left;
+        width: 50%;
+        height: 110px;
+        margin-top: -109px;
+
+        &--option{
+            margin-left: 10px;
+            font-size: 14px;
+            font-weight: 400;
+        }
+
+        &--count{
+            margin-left: 100px;
+            font-size: 14px;
+            font-weight: 400;
+            color: #f00;
+        }
+    }
+
+    &__vitSup{
+        width: 50.56%;
+        float: right;
+        height: 160px;
+        border-left: 2px solid #f5f5f5;
+
+        &--resultStatus{
+            margin-left: 60px;
+            font-size: 14px;
+            font-weight: 400;
+        }
+
+        &--resultStatus1{
+            margin-left: 83px;
+            @extend .PastMedicalHistoryContent__vitSup--resultStatus;
+        }
+
+        &--resultStatus2{
+            margin-left: 160px;
+            color: #f00;
+            @extend .PastMedicalHistoryContent__vitSup--resultStatus;
+        }
+    }
+
+    &__Hospitalization{
+        width: 100%;
+        height: 60px;
+        float: left;
+        border-top: 2px solid #f5f5f5;
+        border-bottom: 2px solid #f5f5f5;
+
+        &--result{
+            margin-left: 75px;
+            border-right: 2px solid #f5f5f5;
+            padding-right: 10px;
+            color: #5a5a5a;
+            font-size: 16px;
+        }
+
+        &--resultStatus{
+            color: #5a5a5a;
+            font-size: 16px;
+            margin-left: 10px;
+        }
+    }
+
+    &__lastTV{
+        width: 100%;
+        height: 60px;
+        float: left;
+        border-bottom: 2px solid #f5f5f5;
+
+        &--status{
+            color: #5a5a5a;
+            font-size: 16px;
+            margin-left: 30px;
+        }
+    }
+
+    &__papSmear{
+        width: 100%;
+        height: 110px;
+        float: left;
+
+        &--left{
+            float: left;
+            width: 25%;
+            height: 100%;
+        }
+
+        &--rightHeader{
+            color: #c2c2c2;
+        }
+
+        &--right{
+            float: left;
+        }
+
+        &--right ul{
+            list-style: none;
+        }
+
+        &--right ul li{
+            display: inline-block;
+            padding: 0px 50px 0px 0px;
+            text-align: center;
+            // color: #5a5a5a;
+        }
+
+        
+
+
+    }
+
+    &__Detail h5{
+        color: #c2c2c2;
+        margin-left: 25px;
+        margin-top: 15px;
+        margin-bottom: 5px;
+        font-size: 18px;
+        font-weight: normal;
+    }
+
+    &__Detail p{
+        color: #c2c2c2;
+        margin-left: 25px;
+        color: #5a5a5a  ;
+    }
+
+
+}
+
+
+

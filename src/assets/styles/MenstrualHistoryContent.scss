@@ -1,0 +1,40 @@
+.MenstrualHistoryContent{
+    width: 370px;
+    padding: 30px 20px 20px 20px;
+
+    // &__List li{
+    //     list-style: none;
+    //     color: #c2c2c2;
+    //     padding: 30px;
+    //     border-bottom: 2px solid #f5f5f5;
+    //     padding-inline-start: 0px;
+    // }
+
+    &__Info{
+        // padding-bottom: 50px;
+        padding: 25px 0 50px 0;
+        border-bottom: 2px solid #f5f5f5;
+    }
+
+    &__Details{
+        padding: 0;
+        margin: 0;
+        width: 50%;
+        float: left;
+        font-size: 18px;
+        color: #c2c2c2;
+        font-weight: 400;
+    }
+
+    &__Status{
+        width: 50%;
+        margin: 0;
+        padding: 0;
+        float: left;
+        font-size: 18px;
+        font-weight: 400;
+        color: #5a5a5a;
+    }
+}
+
+

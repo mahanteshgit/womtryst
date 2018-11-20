@@ -1,0 +1,148 @@
+.LifeStyle{
+    width: 990px;
+    margin: 0 auto;
+    height: 155px;
+    background-color: #fff;
+    position: relative;
+    margin-bottom: 30px;
+
+    &__Header{
+        width: 210px;
+        height: 100%;
+        background-color: #832142;
+        float: left;
+    }
+
+    &__Logo{
+        background: url('../images/lifestyle.png') no-repeat;
+        height: 40px;
+        width: 40px;
+        top: 55px;
+        margin-left: 20px;
+        position: absolute;
+    }
+
+    &__Heading{
+        color: #fff;
+        font-size: 25px;
+        top: 55px;
+        margin-left: 90px;
+        position: absolute;
+    }
+
+    &__InfoIcons{
+        width: 780px;
+        height: 35%;
+        border-bottom: 2px solid #f5f5f5;
+        background-color: #fff;
+        float: left;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__Smoke{
+        flex: 1;
+        box-sizing: border-box;
+        border-right: 2px solid #f5f5f5;
+    }
+    &__Cigarette{
+        background: url('../images/cigarette.png') no-repeat;
+        height: 50px;
+        width: 60px;
+        position: absolute;
+        margin-left: 50px;
+    }
+    &__Drinks{
+        flex: 1;
+        box-sizing: border-box;
+        border-right: 2px solid #f5f5f5;
+    }
+    &__Wine{
+        background: url('../images/wine.png') no-repeat;
+        height: 50px;
+        width: 60px;
+        position: absolute;
+        margin-left: 50px;
+    }
+    &__Syringe{
+        flex: 1;
+        box-sizing: border-box;
+        border-right: 2px solid #f5f5f5;
+    }
+    &__Injection{
+        background: url('../images/syringe.png') no-repeat;
+        height: 50px;
+        width: 60px;
+        position: absolute;
+        margin-left: 50px;
+    }
+    &__Coffee{
+        flex: 1;
+        box-sizing: border-box;
+        border-right: 2px solid #f5f5f5;
+    }
+    &__Tea{
+        background: url('../images/coffee.png') no-repeat;
+        height: 50px;
+        width: 60px;
+        position: absolute;
+        margin-left: 50px;
+    }
+    &__Exercise{
+        flex: 1;
+        box-sizing: border-box;
+    }
+    &__Gym{
+        background: url('../images/exercise.png') no-repeat;
+        height: 50px;
+        width: 60px;
+        position: absolute;
+        margin-left: 50px;
+    }
+    &__InfoContent{
+        float: left;
+        width: 780px;
+        height: 90px;
+        background-color: #fff;
+        display: flex;
+        justify-content: space-between;
+        color: #5a5a5a;
+    }
+    &__SmokeDetails{
+        flex: 1;
+        box-sizing: border-box;
+        text-align: center;
+        border-right: 2px solid #f5f5f5;
+    }
+    &__DrinksDetails{
+        flex: 1;
+        box-sizing: border-box;
+        text-align: center;
+        border-right: 2px solid #f5f5f5;
+    }
+    &__SyringeDetails{
+        flex: 1;
+        box-sizing: border-box;
+        text-align: center;
+        border-right: 2px solid #f5f5f5;
+    }
+    &__CoffeeDetails{
+        flex: 1;
+        box-sizing: border-box;
+        text-align: center;
+        border-right: 2px solid #f5f5f5;
+    }
+    &__ExerciseDetails{
+        flex: 1;
+        box-sizing: border-box;
+        text-align: center;
+    }
+}
+
+.LifeStyle__InfoContent h3{
+    font-weight: normal;
+}
+
+.LifeStyle__InfoContent p{
+    color: #c2c2c2;
+}

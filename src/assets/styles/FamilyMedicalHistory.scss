@@ -1,0 +1,15 @@
+.FamilyMedicalHistory{
+    width: 410px;
+    height: 100%;
+    float: left;
+    background-color: #fff;
+
+    &__HeaderLink{
+        background: url('../images/fmh.png') no-repeat;
+        position: absolute;
+        height: 40px;
+        width: 40px;
+        margin-left: 25px;
+        top: 10px;
+    }
+}

@@ -1,0 +1,24 @@
+.ObstetricsHistory{
+    width: 990px;
+    margin: 0 auto;
+    height: 1300px;
+    background-color: #ffffff;
+
+    &__HeaderLogo{
+        width: 40px;
+        height: 40px;
+        background-color: red;
+        position: absolute;
+        left: 25px;
+        bottom: 5px;
+        border-radius: 50%;
+    }
+    &__HeaderLink{
+        background: url(../images/rh.png) no-repeat ; 
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        left: 25px;
+        bottom: 5px;
+    }
+}

@@ -1,0 +1,14 @@
+.PastMedicalHistoryHeader{
+    height: 55px;
+    width: 570px;
+    background-color: #832142;
+    position: relative;
+
+    &__Heading{
+        color: #fff;
+        font-size: 25px;
+        position: absolute;
+        left: 90px;
+        bottom: -13px;
+    }
+}

@@ -1,0 +1,16 @@
+.MenstrualHistory{
+    width: 410px;
+    float: left;
+    height: 100%;
+    background-color: #fff;
+    
+    &__HeaderLink{
+    background: url('../images/mh.png') no-repeat;
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    margin-left: 25px;
+    top: 10px;
+}
+
+}

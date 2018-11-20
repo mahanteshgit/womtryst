@@ -1,0 +1,222 @@
+.PastPregnancies{
+    width: 990px;
+    margin: 0 auto;
+    // height: auto; 
+
+    &__Heading{
+        padding: 0;
+        margin: 0; 
+        padding-left: 25px;
+        color: #c2c2c2; 
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    &__Count{
+        color: #fff;
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        background-color: #f00; 
+        text-align: center;
+        margin-left: 40px;
+        display: inline-block;
+    }
+
+    &__HeadingDetails{
+        width: 940px;
+        margin: 0 auto;
+        height: 90px;
+        margin-left: 35px;
+        background-color: #666; 
+
+        &--year{
+            width: 100px;
+            height: 100%;
+            float: left;
+            background-color: #fff;
+            color: #c2c2c2;
+            font-size: 18px;
+        }
+
+        &--outcome{
+            @extend .PastPregnancies__HeadingDetails--year;
+            width: 145px;
+        }
+
+        &--conception{
+            @extend .PastPregnancies__HeadingDetails--year;
+            width: 140px;
+        }
+
+        &--weeks{
+            @extend .PastPregnancies__HeadingDetails--year;
+            width: 100px;
+        }
+
+        &--method{
+            @extend .PastPregnancies__HeadingDetails--year;
+            width: 130px;
+        }
+
+        &--Puerperium{
+            @extend .PastPregnancies__HeadingDetails--year;
+            width: 155px;
+        }
+
+        &--DC{
+            @extend .PastPregnancies__HeadingDetails--year;
+            width: 85px;
+        }
+
+        &--child{
+            @extend .PastPregnancies__HeadingDetails--year;
+            width: 85px;
+        }
+    }
+
+    &__Header{ 
+        margin-bottom: 20px;
+    }
+
+    &__Details{
+        width: 960px;
+        // height: 805px;
+        margin: 0 auto;
+        background-color: #eeeeee;
+        border-radius: 5px;
+        padding: 10px 5px;
+        display: table;
+
+        &--year1{ 
+            // height: 100px;
+            margin: 0 auto;
+            background-color: #fff;
+            margin-top: 10px;
+            border-radius: 3px;
+            display: inline-block;
+        }
+
+        &--year2{
+            @extend .PastPregnancies__Details--year1;
+            // height: 80px;
+        }
+
+        &--year3{
+            @extend .PastPregnancies__Details--year2;
+
+            #triplet{
+                color: #fe6666;
+            }
+        }
+
+        &--year4{
+            @extend .PastPregnancies__Details--year2;
+
+            #twins{
+                color: #fe6666;
+            }
+        }
+        .color--block{ 
+            color: #5a5a5a;
+            text-align: center;  
+            height: 60px;
+            padding: 1% 0;
+        }
+    }
+
+    &__Triplets{
+        width: 940px;
+        // height: 200px;
+        margin-top: 10px;
+        background-color: pink;
+        display: table;
+        border: 1px solid #fff;
+    }
+
+    &__TripletsInfoHeader{
+        border-bottom: 1px solid #fff;
+        background-color: red;
+        display: table-row;
+
+        &--Gender{
+            height: 75px;
+            width: 95px;
+            float: left;
+            background-color: #fef3f3;
+            display: table-cell; 
+            text-align: center;
+            padding: 2% 0;
+            color: #c1606f;
+        }
+
+        &--weight{
+            @extend .PastPregnancies__TripletsInfoHeader--Gender;
+            width: 100px;
+        }
+
+        &--bloodGroup{
+            @extend .PastPregnancies__TripletsInfoHeader--Gender;
+            width: 100px;
+        }
+
+        &--breastFeeding{
+            @extend .PastPregnancies__TripletsInfoHeader--Gender;
+            width: 110px;
+        }
+
+        &--cried{
+            @extend .PastPregnancies__TripletsInfoHeader--Gender;
+            width: 110px;
+        }
+
+        &--nicu{
+            @extend .PastPregnancies__TripletsInfoHeader--Gender;
+            width: 125px;            
+        }
+
+        &--withBaby{
+            @extend .PastPregnancies__TripletsInfoHeader--Gender;
+            width: 140px;
+        }
+
+        &--congentialDefect{
+            @extend .PastPregnancies__TripletsInfoHeader--Gender;
+            width: 160px;
+        }
+    }
+
+    &__TripletsInfoContent{
+        background-color: #fef3f3;
+        color: #c1606f;
+
+        .color--block1{
+            color: #5a5a5a;
+        }
+    }
+
+    &__Twins{
+        background-color: #fef3f3;
+        color: #c1606f;
+        width: 940px;
+        height: 60px;
+        margin-top: 10px;
+
+        &--gender{
+            padding: 0;
+            margin: 0;
+            padding-left: 30px;
+            padding-top: 18px;
+            font-size: 18px;
+        }
+
+        &--genderType{
+            color: #5a5a5a;
+            padding: 0 5px 0 15px;
+        }
+    }
+}
+
+.clear{
+    clear: both;
+}

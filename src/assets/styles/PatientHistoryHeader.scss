@@ -1,0 +1,16 @@
+.PatientHistoryHeader{
+    height: 50px;
+    width: 100%;
+    background-color: #a7435a;
+    color: white;
+    font-size: 25px; 
+    position: relative;
+    
+    &__heading{
+        position: absolute;
+        left: 90px;
+        font-size: 25px;
+        font-weight: 500;
+        bottom: -15px;
+    }
+}

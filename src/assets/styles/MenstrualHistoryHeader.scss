@@ -1,0 +1,14 @@
+.MenstrualHistoryHeader{
+    width: 410px;
+    height: 55px;
+    background-color: #832142;
+    color: #fff;
+    position: relative;
+
+    &__Heading{
+        position: absolute;
+        font-size: 25px;
+        margin-left: 80px;
+        top: -17px;
+    }
+}
